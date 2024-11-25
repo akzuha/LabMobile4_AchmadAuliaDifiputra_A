@@ -14,10 +14,10 @@
 # Penjelasan Program Tugas 5
 ## 1. Proses Login
 ### a. Login Berhasil
-<img src="https://github.com/user-attachments/assets/d00813b9-ed10-4d18-944b-dbdebc6f356a" height="320"/>
-#### Penjelasan:
-Proses login berhasil akan mengarahkan ke halaman ProdukPage()
-#### Kode:
+<img src="https://github.com/user-attachments/assets/d00813b9-ed10-4d18-944b-dbdebc6f356a" height="320"/><br/>
+### Penjelasan:
+Proses login berhasil akan mengarahkan ke halaman ProdukPage()<br/>
+### Kode:
 void _submit() {
   _formKey.currentState!.save();
   setState(() {
@@ -35,10 +35,10 @@ void _submit() {
       }
 
 ### b. Login Gagal
-<img src="https://github.com/user-attachments/assets/89f2b391-31f9-4424-8d3b-8d09ea89d254" height="320"/>
-#### Penjelasan:
+<img src="https://github.com/user-attachments/assets/89f2b391-31f9-4424-8d3b-8d09ea89d254" height="320"/><br/>
+### Penjelasan:
 Proses login gagal akan memunculkan notif gagal
-#### Kode:
+### Kode:
 else {
         showDialog(
           context: context,
@@ -58,10 +58,10 @@ else {
     }
 
 ## 2. Proses Tambah Data Produk
-<img src="https://github.com/user-attachments/assets/cbbdd40d-2986-49a1-911b-7ea9e4bfe9c6" height="320"/>
-#### Penjelasan:
+<img src="https://github.com/user-attachments/assets/cbbdd40d-2986-49a1-911b-7ea9e4bfe9c6" height="320"/><br/>
+### Penjelasan:
 Menambah data produk menggunakan halaman form produk, disini ketika tambah maka button tambah produk akan menyimmpan dan memanggil fungsi simpan()
-#### Kode:
+### Kode:
 void simpan() {
     setState(() {
       _isLoading = true;
@@ -88,8 +88,8 @@ void simpan() {
 
 ## 3. Proses Tampil Data Produk
 <img src="https://github.com/user-attachments/assets/3311acd2-a653-49a3-bcdc-81a8bd58f0cf" height="320"/>
-<img src="https://github.com/user-attachments/assets/5d08d4b0-3187-4bb0-bd49-06b329f7fe5d" height="320"/>
-#### Penjelasan:
+<img src="https://github.com/user-attachments/assets/5d08d4b0-3187-4bb0-bd49-06b329f7fe5d" height="320"/><br/>
+### Penjelasan:
 Menampilkan data detail produk dengan seluruh kolom
 #### Kode:
 children: [
@@ -110,7 +110,7 @@ children: [
 
 ## 4. Proses Ubah Data Produk
 <img src="https://github.com/user-attachments/assets/9d1ce5a7-0422-4aef-93e5-325c686d3616" height="320"/>
-<img src="https://github.com/user-attachments/assets/6f60d52b-ea9a-4316-827a-e85fb0bd23f9" height="320"/>
+<img src="https://github.com/user-attachments/assets/6f60d52b-ea9a-4316-827a-e85fb0bd23f9" height="320"/><br/>
 #### Penjelasan:
 Program akan memanggil halaman form edit dengan percabangan, dan kemudian mengupdate data dari form tersebut
 #### Kode:
@@ -131,7 +131,7 @@ isUpdate() {
   }
     
 ## 5. Proses Hapus Data Produk
-<img src="https://github.com/user-attachments/assets/4be917e0-3e99-4959-9b47-891b9513aa52" height="320"/>
+<img src="https://github.com/user-attachments/assets/4be917e0-3e99-4959-9b47-891b9513aa52" height="320"/><br/>
 #### Penjelasan:
 Hapus data memanggil fungsi confirmHapus dan akan menggunakan ID dari data yg diselect dan menghapus data tersebut di database.
 #### Kode:
