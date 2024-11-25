@@ -91,7 +91,7 @@ void simpan() {
 <img src="https://github.com/user-attachments/assets/5d08d4b0-3187-4bb0-bd49-06b329f7fe5d" height="320"/><br/>
 ### Penjelasan:
 Menampilkan data detail produk dengan seluruh kolom
-#### Kode:
+### Kode:
 children: [
             Text(
               "Kode : ${widget.produk!.kodeProduk}",
@@ -111,9 +111,9 @@ children: [
 ## 4. Proses Ubah Data Produk
 <img src="https://github.com/user-attachments/assets/9d1ce5a7-0422-4aef-93e5-325c686d3616" height="320"/>
 <img src="https://github.com/user-attachments/assets/6f60d52b-ea9a-4316-827a-e85fb0bd23f9" height="320"/><br/>
-#### Penjelasan:
+### Penjelasan:
 Program akan memanggil halaman form edit dengan percabangan, dan kemudian mengupdate data dari form tersebut
-#### Kode:
+### Kode:
 isUpdate() {
     if (widget.produk != null) {
       setState(() {
@@ -132,9 +132,9 @@ isUpdate() {
     
 ## 5. Proses Hapus Data Produk
 <img src="https://github.com/user-attachments/assets/4be917e0-3e99-4959-9b47-891b9513aa52" height="320"/><br/>
-#### Penjelasan:
+### Penjelasan:
 Hapus data memanggil fungsi confirmHapus dan akan menggunakan ID dari data yg diselect dan menghapus data tersebut di database.
-#### Kode:
+### Kode:
 void confirmHapus() {
     AlertDialog alertDialog = AlertDialog(
       content: const Text("Yakin ingin menghapus data ini?"),
